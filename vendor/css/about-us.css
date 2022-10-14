@@ -1,0 +1,683 @@
+*{
+    font-family: 'Poppins','Inter',sans-serif;
+}
+html,body{
+    overflow-x: hidden;
+}
+.container{
+    padding-left: 0;
+    padding-right: 0;
+}
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    padding: 1.55rem 0;
+}
+li.nav-item {
+    /* align-items: center; */
+    display: flex;
+}
+.nav-item .nav-link {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #394149;
+    margin: 0 0.5rem;
+
+}
+.navbar button.btn.btn-clone {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 106.5%;
+    color: #F58A07;
+    background: rgba(245, 138, 7, 0.1);
+    border-radius: 31px;
+    padding: 1.125rem 2rem;
+    margin-left: 1.5rem;
+}
+.navbar-light .navbar-nav .nav-link {
+    color:unset; 
+    display: flex;
+    align-items: center;
+}
+.header .container {
+    padding-top: 7.313rem;
+    padding-bottom: 5.313rem;
+}
+.header-text {
+    margin-bottom: 2rem;
+    padding-top: 3.75rem;
+}
+.header .container-fluid{
+    background-color: rgba(220, 234, 245, 1);
+}
+.header .header-text h2 {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+/* or 112% */
+    letter-spacing: -0.03em;
+    color: #1D3444;
+    margin-bottom: 1.5rem;
+}
+.header-text p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+/* or 167% */
+    color: #5B5B5B;
+    margin-bottom: 2rem;
+}
+
+.btn-orange {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 106.5%;
+/* or 19px */
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background: #F58A07;
+    border-radius: 31px;
+    padding: 1.125rem 2rem;
+}
+.header-image img.img-fluid:first-child {
+    width: 100%;
+}
+.cirle-header {
+    position: absolute;
+    right: -55px;
+    bottom: -55px;
+}
+
+.header-image {
+    position: relative;
+}
+
+.orange-header {
+    position: absolute;
+    left: 0;
+    mix-blend-mode: multiply;
+    height: 100%;
+}
+
+.features-text h3 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+/* or 122% */
+    letter-spacing: -0.03em;
+    color: #0D1317;
+}
+.features-text p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+/* or 167% */
+    color: #1D3444;
+}
+.features-section .container {
+    padding: 5.313rem 0;
+}
+.features-content .card {
+    border: none;
+}
+.features-content .card span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+/* identical to box height, or 139% */
+    color: #F58A07;
+    margin-bottom: 1rem;
+}
+
+.features-content .card .card-body h5 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 106.5%;
+/* identical to box height, or 26px */
+    letter-spacing: -0.03em;
+    color: #0D1317;
+}
+
+.features-content .card .card-body p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+/* or 175% */
+    color: #5B5B5B;
+}
+.features-text > .row >.col-6:first-child {
+    padding-right: 4rem;
+}
+
+.features-section .features-text {
+    margin-bottom: 4rem;
+}
+
+.features-content .card .card-body {
+    padding: 0;
+}
+
+.about-section .container {
+    padding: 4.5rem 0;
+}
+
+.about-text {
+    margin-block: 9rem;
+}
+.about-image > img:last-child {
+    position: absolute;
+    bottom: -32px;
+    right: -32px;
+    mix-blend-mode: multiply;
+}
+
+.about-image {
+    position: relative;
+    width: fit-content;
+}
+.about-section .about-text h2 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+/* or 117% */
+    letter-spacing: -0.03em;
+    color: #0D1317;
+    margin-bottom: 2rem;
+}
+
+.about-section .about-text p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+/* or 167% */
+    color: #5B5B5B;
+    margin-right: 9rem;
+}
+  
+.team-section .container {
+    padding: 3.25rem 0;
+}
+
+.team-section .team-text h2 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+/* or 117% */
+    letter-spacing: -0.03em;
+    color: #0D1317;
+    margin-bottom: 1.7rem;
+    padding-right: 11rem;
+}
+.team-info > .row {
+    justify-content: space-between;
+}
+.team-section > .container > .row:first-child {
+    margin-bottom: 4rem;
+}
+.team-section .team-text p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+
+color: #5B5B5B;
+
+}
+.team-info > .row > .col-lg-3 > .team-image {
+    width: fit-content;
+    position: relative;
+}
+
+
+
+
+
+.team-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #252525;
+    mix-blend-mode: multiply;
+    border-radius: 20px;
+    bottom: 0;
+}
+
+
+.person-info {
+    position: absolute;
+    bottom: 0;
+}
+.person-info .card {
+    background-color: unset;
+    color: #fff;
+    padding: 43px 31px;
+}
+.person-info .card .card-body {
+    padding: 0;
+}
+
+.person-info .card .position {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+/* or 114% */
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin-bottom: 0.5rem;
+}
+
+.person-info .card .card-body .card-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+/* or 133% */
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+}
+
+.person-info .card .card-body .card-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+a.more {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 106.5%;
+    color: #F58A07;
+    text-decoration: none;
+}
+.team-info > .row > .col-lg-3 >.team-image > .person-info {
+    display: none;
+}
+
+.team-info > .row > .col-lg-3:last-child >.team-image > .person-info {
+    display: block;
+}
+a.more img {
+    margin-left: 0.5rem;
+}
+.feaures-section .container-fluid {
+    background-color: rgba(237, 247, 255, 1);
+}
+.feaures-text h2 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+/* or 122% */
+    letter-spacing: -0.03em;
+    color: #0D1317;
+}
+
+.feaures-text p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+/* or 167% */
+    color: #1D3444;
+}
+.feaures .card img.icon {
+    width: 34px;
+}
+
+.feaures .card h5.card-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 106.5%;
+/* identical to box height, or 26px */
+    letter-spacing: -0.03em;
+    color: #0D1317;
+    margin-bottom: 1rem;
+}
+.feaures .card p.card-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+/* or 175% */
+    color: #5B5B5B;
+}
+.feaures .card {
+    border-radius: 20px;
+    padding: 3rem 2.438rem 2.438rem 2.438rem;
+}
+
+.feaures .card .card-body {
+    padding: 0;
+}
+.feaures .card img.icon {
+    margin-bottom: 2rem;
+}
+.feaures-section .container {
+    padding: 6rem 0;
+}
+.feaures-text .row .col-6:first-child {
+    padding-right: 2rem;
+}
+
+.feaures-section .feaures-text {
+    margin-bottom: 4rem;
+}
+
+
+.video-section .container {
+    padding: 8rem 0;
+}
+.video-section .video-section-text h2 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+/* or 117% */
+    letter-spacing: -0.03em;
+    text-transform: capitalize;
+    color: #0D1317;
+}
+.video-section .video-section-text p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+/* or 167% */
+    color: #5B5B5B;
+}
+.video-section .person h4 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 171%;
+/* identical to box height, or 41px */
+    color: #063255;
+}
+
+.video-section .person span {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 171%;
+/* identical to box height, or 31px */
+    color: #F58A07;
+}
+.info-person {
+    margin-left: 1.5rem;
+}
+.video-section .video-section-text {
+    padding-right: 6rem;
+    margin-bottom: 2.5rem;
+}
+
+.video-section .video-section-text h2 {
+    margin-bottom: 1.5rem;
+}
+
+.video-section > .container > .row > .col-6:first-child {
+    margin: 4.875rem 0;
+}
+.icon-play {
+    position: absolute;
+    bottom: 2.5rem;
+    left: 2.5rem;
+}
+
+.video-section .video-right {
+    position: relative;
+    padding: 0;
+    height: fit-content;
+}
+
+.video-section .video-right .img-fluid {
+    width: 100%;
+}
+.latest-section .container-fluid {
+    background-color: rgba(220, 234, 245, 1);
+}
+
+.latest-section .container {
+    padding: 6rem 0;
+}
+
+.latest-section .container h2 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+/* identical to box height, or 117% */
+    letter-spacing: -0.03em;
+    text-transform: capitalize;
+    color: #0D1317;
+    margin-bottom: 4rem;
+}
+.latest-section-blog .blog-item{
+    height: 100%;
+}
+.latest-section-blog .blog-item .card {
+    border-radius: 20px;
+    height: 100%;
+}
+.latest-section-blog .blog-item .card .card-body {
+    padding: 2rem;
+}
+
+.latest-section-blog .blog-item .card .card-body .card-title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+/* or 150% */
+    letter-spacing: -0.03em;
+    color: #0D1317;
+    margin-bottom: 1rem;
+}
+
+.latest-section-blog .blog-item .card .card-body .card-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+/* or 175% */
+    color: #5B5B5B;
+}
+.footer .container-fluid {
+    padding: 0;
+    background-color: rgba(6, 50, 85, 1);
+    position: relative;
+}
+.orange-left {
+    position: absolute;
+    bottom: 0;
+}
+
+.orange-right {
+    position: absolute;
+    right: 0;
+    top: 2.375rem;
+}
+.footer .container {
+    padding: 5rem 0;
+}
+
+.footer .footer-top h5 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+/* identical to box height */
+    color: #FFFFFF;
+    margin-bottom: 1.5rem;
+}
+
+.footer .footer-top h2 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+/* or 122% */
+    letter-spacing: -0.03em;
+    margin-bottom: 2.125rem;
+    color: #FFFFFF;
+}
+
+.footer .footer-top  ul > li {
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+.footer .footer-top ul > li a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+/* identical to box height */
+    color: #FFFFFF;
+}
+
+.footer .footer-top ul {
+    padding-left: 0;
+}
+.footer-bottom a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+/* identical to box height */
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.footer-top .logo {
+    margin-bottom: 2rem;
+}
+
+.footer-top .social-logo a {
+    margin-right: 1.25rem;
+}
+
+.footer-top .form-group input {
+    background: #FFFFFF;
+    border-radius: 31px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #9C9C9C;
+    padding-top: 1.125rem;
+    padding-bottom: 1.125rem;
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+}
+.footer-top .btn-footer {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 106.5%;
+/* or 19px */
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding: 1.125rem 2rem;
+    background: #F58A07;
+    border-radius: 31px;
+}
+.footer-top {
+    margin-bottom: 5.125rem;
+}
+.footer-bottom > .row > .col-4:last-child {
+    text-align: right;
+}
+@media (min-width: 499px) and (max-width: 767.98px) { 
+
+    .navbar button.btn.btn-clone {
+        margin: 0;
+    }
+    .header .container {
+        /* padding: 7.313rem 0.5rem 5.313rem 0.5rem; */
+        padding: 0.313rem 0.5rem 0.313rem 0.5rem;
+    }
+    .cirle-header{
+        display: none;
+    }
+    .header .row .col-lg-6:first-child {
+        padding-bottom: 2rem;
+    }
+    .feaures .card {
+        margin-bottom: 2rem;
+    }
+    .about-section .about-text p{
+        margin: 0;
+    }
+    .about-text {
+        margin-block: 2rem;
+    }
+    .about-section .container {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    .image-about{
+        margin-top: 4rem;
+    }
+
+    
+    .about-section img.cirle{
+        display: none;
+    }
+    .about-image > img:last-child{
+        width: 40%;
+    }
+    .team-section .container{
+        padding-left:0 ;
+        padding-right: 0;
+    }
+    .team-section .team-text h2{
+        padding: 0;
+    }
+    .person.d-flex {
+        margin: 2rem;
+    }
+
+    .video-section .video-section-text {
+        padding-right: 0;
+        /* margin-bottom: 2rem; */
+    }
+    
+    .video-section .video-right {
+        margin-top: 2rem;
+    }
+    .video-section .container {
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+    }
+    .footer .container{
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    .footer-top .social-logo{
+        margin-bottom: 2rem;
+    }
+    
+}
+@media (max-width:1100px ){
+    .orange-right{
+        display: none;
+    }
+    .orange-left{
+        display: none;
+    }
+    .about-text {
+        margin-block: 2rem;
+    }
+    .team-info .col-12.col-md-6.col-lg-3 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2rem;
+    } 
+    .latest-section-blog .row .col-12 {
+        margin-block: 2rem;
+    }
+    
+    .latest-section-blog .blog-item .card{
+        border-radius:32px;
+    }
+}
+@media (max-width:1250px ){
+    .about-text {
+        margin-block: 2rem;
+    }
+}
+@media (max-width:498px ){
+    .container {
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+    }
+    .person.d-flex {
+        margin: 2rem;
+    }
+}
